@@ -27,7 +27,7 @@ This repository contains disk images and related configuration files that will e
 * The 'images' directory contains the CP/M floppy boot disk and blank images
 * The 'flashfloppy' directory contains a configuration file suitable for a Gotek device running the [flashfloppy firmware](https://github.com/keirf/flashfloppy)
 * The 'cpmtools' directory contains the cpmtools utility disk definitions for the various image formats supported by this release of CP/M
-* The 'extras' directory contains a disk image with WordStar version 4, configured for the ADM-3A terminal, and the Kermit Users Guide
+* The 'extras' directory contains disk images with WordStar version 4 (both standard and 80 column versions), configured for the ADM-3A terminal, and the Kermit Users Guide
 
  
 ## Prerequisites
