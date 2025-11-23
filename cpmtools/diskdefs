@@ -791,6 +791,45 @@ diskdef nabu22hdc
 end
 
 #
+# Definitions for NABU CP/M 3.1 mame hard drive
+#
+
+# NABU3HDA  Nabu PC - MAME Hard Drive A
+diskdef nabu3hda
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 1
+    os 3
+end
+
+# NABU3HDB  Nabu PC - MAME Hard Drive B
+diskdef nabu3hdb
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 0
+    offset 1024t
+    os 3
+end
+
+# NABU3HDC  Nabu PC - MAME Hard Drive C
+diskdef nabu3hdc
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 0
+    offset 2048t
+    os 3
+end
+
+#
 # Definitions for the original NABU CP/M 3 hard drive
 #
 
