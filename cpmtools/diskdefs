@@ -752,6 +752,57 @@ diskdef nabu22cfd
 end
 
 #
+# Definitions for NABU CP/M 3.1 CompactFlash
+#
+
+# NABU3CFA  Nabu PC - CompactFlash A
+diskdef nabu3cfa
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 1
+    os 3
+end
+
+# NABU3CFB  Nabu PC - CompactFlash B
+diskdef nabu3cfb
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 0
+    offset 1024t
+    os 3
+end
+
+# NABU3CFC  Nabu PC - CompactFlash C
+diskdef nabu3cfc
+    seclen 512
+    tracks 1024
+    sectrk 16
+    blocksize 4096
+    maxdir 512
+    boottrk 0
+    offset 2048t
+    os 3
+end
+
+# NABU3CFD  Nabu PC - CompactFlash D
+diskdef nabu3cfd
+    seclen 512
+    tracks 512
+    sectrk 16
+    blocksize 4096
+    maxdir 256
+    boottrk 0
+    offset 3072t
+    os 3
+end
+
+#
 # Definitions for NABU CP/M 2.2 mame hard drive
 #
 
