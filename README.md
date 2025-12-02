@@ -12,11 +12,11 @@ This repository contains disk images and related configuration files that will e
 * Dynamically re-configures for SSDD or DSDD disks on 5.25" drives
 * Standard RAW format disk images that can easily be manipulated with cpmtools
 * Bootable harddrive images for use with the mame
-	- `Bonus:` Check out drive B for a bunch of Infocom games specifically patched for the ADM-3A terminal!
+	- `Bonus:` Check out drive B for the many included games! See the readme file in the [mame_harddrive_images](https://github.com/labomb/NABU_PC_CPM_3.1/tree/master/mame_harddrive_images) directory for details.
 * Serial option board support
 * Parallel port support
 * Virtual 80 column mode
-* Support for the F18A/Pico9918 VGA video adapters (offers true 80 column support)
+* Support for the F18A/Pico9918 video adapters (offers true 80 column support)
 * ADM-3A terminal emulation
 * Includes several custom utilities
 * Official patches provided by DRI have been applied
