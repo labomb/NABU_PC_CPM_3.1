@@ -18,6 +18,20 @@ This repository contains disk images and related configuration files that will e
 * Virtual 80 column mode
 * Support for the F18A/Pico9918 video adapters (offers true 80 column support)
 * ADM-3A terminal emulation
+* Includes several NHACP tools that facilitate access to virtual network adapters/servers that support the NHACP protocol:
+
+	| Command | Description |
+	| --- | --- |
+	| nhdir | Display a remote directory |
+	| nhput | Put a local file into remote directory |
+	| nhget | Get a file from a remote directory |
+	| nhdel | Delete a remote file |
+	| nhrmdir | Remove a remote directory |
+	| nhmkdir | Create a remote directory |
+	| nhdate | Display the server's current date and time |
+
+	See the the [pdf file](https://github.com/labomb/NABU_PC_CPM_3.1/blob/master/NABU_CPM_3.1_Readme.pdf) for additional details.
+
 * Includes several custom utilities
 * Official patches provided by DRI have been applied
 * Uses standard DRI CP/M operating system components
