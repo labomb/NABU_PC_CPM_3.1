@@ -13,6 +13,7 @@ This repository contains disk images and related configuration files that will e
 * Standard RAW format disk images that can easily be manipulated with cpmtools
 * Bootable harddrive images for use with the mame
 	- `Bonus:` Check out drive B for the many included games! See the readme file in the [mame_harddrive_images](https://github.com/labomb/NABU_PC_CPM_3.1/tree/master/mame_harddrive_images) directory for details.
+* Hybrid CP/M images for use with mame that support floppies and harddrives concurrently
 * Serial option board support
 * Parallel port support
 * Virtual 80 column mode
@@ -44,6 +45,7 @@ This repository contains disk images and related configuration files that will e
 * The 'flashfloppy' directory contains a configuration file suitable for a Gotek device running the [flashfloppy firmware](https://github.com/keirf/flashfloppy)
 * The 'cpmtools' directory contains the cpmtools utility disk definitions for the various image formats supported by this release of CP/M
 * The 'mame_harddrive_images' directory contains bootable 24mb images (three 8mb drives) for use with the mame Nabu PC emulator
+* The 'mame_hybrid_cpm_images' directory contains bootable floppy and harddrive images (two 8mb drives) for use with the mame Nabu PC emulator and support both the floppy controller and the harddrive controller concurrently (see the readme in the hybrid directory)
 * The 'extras' directory contains disk images with WordStar version 4 (both standard and 80 column versions), configured for the ADM-3A terminal, and the Kermit Users Guide
 
  
